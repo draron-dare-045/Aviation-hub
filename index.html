@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviation News Hub</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Aviation News Hub</h1>
+        <button id="dark-mode-btn">Toggle Dark Mode</button>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search aviation news...">
+            <button id="search-btn">Search</button>
+        </div>
+        <select id="category-select">
+            <option value="aviation">All Aviation News</option>
+            <option value="airlines">Airlines</option>
+            <option value="technology">Aircraft Technology</option>
+        </select>
+    </header>
+    
+    <main>
+        <div id="news-container"></div>
+    </main>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
