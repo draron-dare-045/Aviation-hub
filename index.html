@@ -9,20 +9,22 @@
 <body>
     <header>
         <h1>Aviation News Hub</h1>
-        <button id="dark-mode-btn">Toggle Dark Mode</button>
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search aviation news...">
+        <a href="saved.html" id="saved-articles-btn">View Saved Articles</a>
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Search news...">
             <button id="search-btn">Search</button>
+            <select id="category-select">
+                <option value="aviation">Aviation</option>
+                <option value="airlines">Airlines</option>
+                <option value="airports">Airports</option>
+                <option value="technology">Technology</option>
+            </select>
+            <button id="dark-mode-btn">Dark Mode</button>
         </div>
-        <select id="category-select">
-            <option value="aviation">All Aviation News</option>
-            <option value="airlines">Airlines</option>
-            <option value="technology">Aircraft Technology</option>
-        </select>
     </header>
     
-    <main>
-        <div id="news-container"></div>
+    <main id="news-container">
+    
     </main>
     
     <script src="./index.js"></script>

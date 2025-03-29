@@ -1,6 +1,6 @@
 # Aviation News Hub
 
-Aviation News Hub is a Single Page Application (SPA) that provides real-time aviation news using NewsAPI.org. It allows users to search and browse aviation-related news articles with images and summaries.
+Aviation News Hub is a Two Page Application (SPA) that provides real-time aviation news using NewsAPI.org. It allows users to search and browse aviation-related news articles with images and summaries and even save them locally for future reads.
 
 ## Features
 
@@ -38,7 +38,7 @@ Aviation News Hub is a Single Page Application (SPA) that provides real-time avi
    - Start the backend
 
 ## Deployment
-- The project was deployed using Vercel
+- The project was deployed using Vercel for frontend and render on the backend
 
 ## Contributing
 Contributions are welcome! Feel free to submit a pull request or report issues.
