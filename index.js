@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const categorySelect = document.getElementById("category-select");
     const darkModeBtn = document.getElementById("dark-mode-btn");
 
-    const API_BASE_URL = "https://my-app-backend-2lma.onrender.com/api/news"; 
+    const API_BASE_URL = "https://aviation-news-backend.onrender.com/api/news"; 
 
     
     async function fetchNews(query = "aviation") {
