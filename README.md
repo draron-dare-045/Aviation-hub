@@ -1,17 +1,19 @@
 # Aviation News Hub
 
-Aviation News Hub is a Two Page Application (SPA) that provides real-time aviation news using NewsAPI.org. It allows users to search and browse aviation-related news articles with images and summaries and even save them locally for future reads.
+Aviation News Hub is an Application that provides real-time aviation news using NewsAPI.org. It allows users to search and browse aviation-related news articles with images and summaries and even save them locally for future reads.
 
 ## Features
 
 - User-friendly interface with a clean and responsive design
 - Search functionality for filtering news articles
 - Displays news headlines, images, descriptions, and sources
+- Save the news for future references
 
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js
+- **Backend:** Node.js with Express.js – To handle API requests and fetch news data.
+
 
 ## Setup and Installation
 
