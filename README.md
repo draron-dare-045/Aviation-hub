@@ -31,13 +31,6 @@ Aviation News Hub is an Application that provides real-time aviation news using 
    ```sh
    cd aviation-news-hub
    ```
-3. If using a backend, install dependencies:
-   ```sh
-   npm install
-   ```
-4. Run the application:
-   - Open `index.html` in a browser, or
-   - Start the backend
 
 ## Deployment
 - The project was deployed using Vercel for frontend and render on the backend
